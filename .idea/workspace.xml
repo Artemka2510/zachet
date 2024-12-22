@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05a137c2-ec32-48e1-ad9e-6099e1773da7" name="Changes" comment="try2" />
+    <list default="true" id="05a137c2-ec32-48e1-ad9e-6099e1773da7" name="Changes" comment="try3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/material.py" beforeDir="false" afterPath="$PROJECT_DIR$/material.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,12 +86,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734811908884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="try3">
+      <option name="closed" value="true" />
+      <created>1734813605223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734813605224</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try" />
     <MESSAGE value="try2" />
-    <option name="LAST_COMMIT_MESSAGE" value="try2" />
+    <MESSAGE value="try3" />
+    <option name="LAST_COMMIT_MESSAGE" value="try3" />
   </component>
 </project>
