@@ -1,7 +1,7 @@
 import sys
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QTableWidget, QTableWidgetItem, QMessageBox
-import psycopg2
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QTableWidget, QTableWidgetItem, QMessageBox, QLineEdit, QPushButton, QHBoxLayout
 
+import psycopg2
 
 class MainWindow(QWidget):
     def __init__(self, parent=None):
@@ -10,6 +10,25 @@ class MainWindow(QWidget):
 
         # Основной вертикальный layout
         vbox = QVBoxLayout()
+
+        # Создаем горизонтальный layout для поиска и кнопок
+        hbox = QHBoxLayout()
+
+        # Поле для ввода поиска
+        self.search_edit = QLineEdit(self)
+        self.search_edit.setPlaceholderText("Поиск по материалам...")
+        hbox.addWidget(self.search_edit)
+
+        # Кнопка сортировки
+        sort_button = QPushButton("Сортировка", self)
+        hbox.addWidget(sort_button)
+
+        # Кнопка фильтрации
+        filter_button = QPushButton("Фильтрация", self)
+        hbox.addWidget(filter_button)
+
+        # Добавляем горизонтальный layout в основной вертикальный layout
+        vbox.addLayout(hbox)
 
         # Таблица для отображения материалов
         self.table_widget = QTableWidget(self)
