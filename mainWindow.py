@@ -24,7 +24,7 @@ class MainWindow(QWidget):
         filter_button = QPushButton("Фильтрация", self)
         hbox.addWidget(filter_button)
 
-        # Добавляем горизонтальный layout в основной вертикальный layout
+
         vbox.addLayout(hbox)
 
  
